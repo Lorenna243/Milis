@@ -46,12 +46,15 @@ body{
 .card{
     overflow: hidden;
     font-family: 'sourcepro';
-    max-width: 49%;
     transition:box-shadow ease-in-out 0.2s;
     border-color: #0f87436c !important;
 }
+
 .card:hover{
     box-shadow: none !important;
+}
+.border-green{
+    border-color: #14a0516c !important;
 }
 .card .card-title{    
     font-family: 'Domine' !important;
@@ -69,7 +72,10 @@ body{
     width: 99.5%;
     border-color: #0f874385 !important;
     box-sizing: border-box;
-    font-size: 8rem;
+    font-size: 5rem;
+}
+.titulo-cardapio svg{
+    font-size: 4rem !important;
 }
 .carousel .carousel-inner{
     padding: 1rem;
